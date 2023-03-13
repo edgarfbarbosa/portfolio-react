@@ -1,10 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 .navbar__container {
     align-items: center;
+    background-color: var(--bg-color);
     display: flex;
     justify-content: space-around;
 }
