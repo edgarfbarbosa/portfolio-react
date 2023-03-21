@@ -9,6 +9,7 @@ const Navbar = () => {
             </div>
             <div>
                 <ul className="ul__container">
+                    <li>Home</li>
                     <li>Sobre</li>
                     <li>Habilidades</li>
                     <li>Projetos</li>
