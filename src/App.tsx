@@ -1,7 +1,8 @@
 import "./assets/css/base/base.css"
 import "./assets/css/base/reset.css"
 import Navbar from "./components/navbar";
-import Home from "./components/home"
+import Home from "./components/home";
+import AboutMe from "./components/about";
 import Footer from "./components/footer";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div>
       <Navbar />
       <Home />
+      <AboutMe />
       <Footer />
     </div>
   )

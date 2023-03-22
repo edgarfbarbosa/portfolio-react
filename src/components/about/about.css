@@ -1,0 +1,6 @@
+.about__container {
+    align-items: center;
+    display: flex;
+    font-family: 'JetBrains Mono', monospace;
+    height: 80vh;
+}
