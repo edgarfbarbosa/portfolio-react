@@ -1,6 +1,5 @@
 .navbar__container {
     align-items: center;
-    background-color: var(--bg-color);
     display: flex;
     font-family: 'JetBrains Mono', monospace;
     justify-content: space-around;

@@ -1,6 +1,8 @@
+import './home.css'
+
 const Home = () => {
     return (
-        <section>
+        <section className="home__container">
             <div>
                 <h1>Front-end Developer</h1>
                 <p>
