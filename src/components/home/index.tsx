@@ -9,17 +9,18 @@ import reactIcon from '../../assets/img/icons/react.svg'
 const Home = () => {
     return (
         <section className="home__container">
-            <div>
-                <h1>Front-end Developer</h1>
+            <div className="home__content">
+                <h1>Edgar Faria Barbosa</h1>
+                <h2>Front-end Developer</h2>
                 <p>
-                    Dolor proident ipsum non commodo culpa do. Magna nisi irure ea ipsum excepteur laboris velit dolore. Exercitation dolor velit id incididunt ullamco sint consequat labore.
+                    Sou estudante de Engenharia de Software e estou me especializando em Desenvolvimento Front-end.
                 </p>
             </div>
-            <div>
+            {/* <div>
                 <img></img>
-            </div>
+            </div> */}
             <div className="tech__container">
-                <h2>Tech Stack |</h2>
+                <h3>Tech Stack |</h3>
                 <div>
                     <img src={htmlIcon} className="tech__icon"></img>
                     <img src={cssIcon} className="tech__icon"></img>
