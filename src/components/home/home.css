@@ -1,6 +1,19 @@
 .home__container {
     align-items: center;
     display: flex;
+    flex-direction: column;
     font-family: 'JetBrains Mono', monospace;
     height: 80vh;
+    justify-content: center;
+}
+
+.tech__container {
+    align-items: center;
+    display: flex;
+}
+
+.tech__icon {
+    height: 3rem;
+    margin-left: 3rem;
+    width: 3rem;
 }

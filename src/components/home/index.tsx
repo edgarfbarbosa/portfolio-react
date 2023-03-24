@@ -1,5 +1,11 @@
 import './home.css'
 
+import htmlIcon from '../../assets/img/icons/html5.svg'
+import cssIcon from '../../assets/img/icons/css3.svg'
+import jsIcon from '../../assets/img/icons/javascript.svg'
+import tsIcon from '../../assets/img/icons/typescript.svg'
+import reactIcon from '../../assets/img/icons/react.svg'
+
 const Home = () => {
     return (
         <section className="home__container">
@@ -12,11 +18,15 @@ const Home = () => {
             <div>
                 <img></img>
             </div>
-            <div>
-                <h2>Tech Stack</h2>
-                <p>
-                    Sit consequat cillum reprehenderit tempor laboris qui id deserunt. Est nulla ullamco officia enim sunt exercitation sint est enim cillum ullamco non non. Nostrud Lorem id laboris anim magna.
-                </p>
+            <div className="tech__container">
+                <h2>Tech Stack |</h2>
+                <div>
+                    <img src={htmlIcon} className="tech__icon"></img>
+                    <img src={cssIcon} className="tech__icon"></img>
+                    <img src={jsIcon} className="tech__icon"></img>
+                    <img src={tsIcon} className="tech__icon"></img>
+                    <img src={reactIcon} className="tech__icon"></img>
+                </div>
             </div>
         </section>
     )
