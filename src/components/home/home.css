@@ -7,6 +7,17 @@
     justify-content: center;
 }
 
+/* .img__container {
+    height: 100vh;
+    width: 100%;
+} */
+
+.img__photo {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
 .tech__container {
     align-items: center;
     display: flex;
