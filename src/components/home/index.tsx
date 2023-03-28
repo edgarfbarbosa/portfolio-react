@@ -15,13 +15,16 @@ const Home = () => {
                 <img src={profilePhoto} className="img__photo"></img>
             </div> */}
             <div className="home__content">
-                <h1>Edgar Faria Barbosa</h1>
-                <h2>Front-end Developer</h2>
+                <h1 className="home__title">Edgar Faria Barbosa</h1>
+                <h2 className="home__subtitle">Front-end Developer</h2>
                 <p>
                     Sou estudante de Engenharia de Software e estou me especializando em Desenvolvimento Front-end.
                 </p>
             </div>
-            <div className="tech__container">
+            <div>
+                <button>Currículo</button>
+            </div>
+            {/* <div className="tech__container">
                 <h3>Tech Stack |</h3>
                 <div>
                     <img src={htmlIcon} className="tech__icon"></img>
@@ -30,7 +33,7 @@ const Home = () => {
                     <img src={tsIcon} className="tech__icon"></img>
                     <img src={reactIcon} className="tech__icon"></img>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }
