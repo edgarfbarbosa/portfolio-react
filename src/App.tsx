@@ -1,4 +1,4 @@
-import "./assets/css/base/base.css"
+import "./App.css"
 import "./assets/css/base/reset.css"
 import Navbar from "./components/navbar";
 import Home from "./components/home";

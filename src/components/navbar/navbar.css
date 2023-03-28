@@ -1,7 +1,8 @@
 .navbar__container {
     align-items: center;
     display: flex;
-    font-family: 'JetBrains Mono', monospace;
+    font-family: var(--title-font);
+    font-weight: 400;
     justify-content: space-around;
 }
 

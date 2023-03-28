@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Poppins:wght@400;500;600&display=swap');
+
+:root {
+    --container-color: #2d2c2e;
+    --text-color: #faf5e6;
+    --title-color: #fbbd0d;
+
+    --body-font: 'JetBrains Mono', monospace;
+    --title-font: 'Poppins', sans-serif;
+}
