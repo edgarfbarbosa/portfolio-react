@@ -2,24 +2,38 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    font-family: 'JetBrains Mono', monospace;
     height: 90vh;
     justify-content: center;
 }
 
-.home__content {
-    font-family: var(--title-font);
+.home__content--container {
     width: 600px;
 }
 
 .home__title {
+    font-family: var(--title-font);
     font-size: 3rem;
     font-weight: 600;
-    margin-bottom: .3rem;
 }
 
 .home__subtitle {
-    font-size: 2.5rem;
+    font-family: var(--title-font);
+    font-size: 2.3rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
+}
+
+.home__phrase {
+    font-family: var(--body-font);
+    font-size: 1.1rem;
+    margin: 1rem 0 1rem
+}
+
+.home__btn {
+    border: 1px solid #bbb;
+    cursor: pointer;
+    font-family: var(--title-font);
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem 3rem;
 }
