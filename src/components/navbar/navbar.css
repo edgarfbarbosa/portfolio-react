@@ -1,17 +1,16 @@
 .navbar__container {
     align-items: center;
-    border-bottom: 1px solid black;
     display: flex;
     font-family: var(--title-font);
+    font-weight: 500;
     height: 10vh;
     justify-content: space-around;
 }
 
-.ul__container {
+.navbar__items--container {
     display: flex;
-    list-style: none;
 }
 
-.ul__container li {
+.navbar__items {
     margin-left: 2rem;
 }

@@ -7,15 +7,13 @@ const Navbar = () => {
                 <img src=""></img>
                 <a>Edgar Faria Barbosa</a>
             </div>
-            <div>
-                <ul className="ul__container">
-                    <li>Home</li>
-                    <li>Sobre</li>
-                    <li>Habilidades</li>
-                    <li>Projetos</li>
-                    <li>Contato</li>
-                </ul>
-            </div>
+            <ul className="navbar__items--container">
+                <li className="navbar__items">Home</li>
+                <li className="navbar__items">Sobre</li>
+                <li className="navbar__items">Habilidades</li>
+                <li className="navbar__items">Projetos</li>
+                <li className="navbar__items">Contato</li>
+            </ul>
         </nav>
     )
 }
