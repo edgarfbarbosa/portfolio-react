@@ -34,14 +34,3 @@
     height: 300px;
     width: 300px;
 }
-
-.tech__container {
-    align-items: center;
-    display: flex;
-}
-
-.tech__icon {
-    height: 3rem;
-    margin-left: 3rem;
-    width: 3rem;
-}
