@@ -9,7 +9,6 @@ const Home = () => {
                 <p className="home__phrase">
                     Sou estudante de Engenharia de Software e estou me especializando em Desenvolvimento Front-end.
                 </p>
-                <button className="home__btn">Currículo</button>
             </div>
         </section>
     )

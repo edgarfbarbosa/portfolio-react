@@ -15,6 +15,7 @@ const AboutMe = () => {
                     <li className="about__language">TypeScript</li>
                     <li className="about__language">React</li>
                 </ul>
+                <button className="about__btn">Currículo</button>
             </div>
         </section>
     )

@@ -27,3 +27,13 @@
     list-style: disc;
     margin-bottom: .35rem;
 }
+
+.about__btn {
+    border: 1px solid #bbb;
+    cursor: pointer;
+    font-family: var(--title-font);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 2rem 0;
+    padding: 1rem 3rem;
+}
