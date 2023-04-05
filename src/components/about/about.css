@@ -1,6 +1,29 @@
 .about__container {
-    align-items: center;
     display: flex;
-    font-family: 'JetBrains Mono', monospace;
-    height: 80vh;
+    height: 100vh;
+    justify-content: center;
+}
+
+.about__title {
+    font-family: var(--title-font);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 2rem 0;
+}
+
+.about__phrase {
+    font-family: var(--title-font);
+    font-size: 1.1rem;
+    margin: 2rem 0;
+}
+
+.about__language--container {
+    padding-left: 3rem;
+}
+
+.about__language {
+    font-family: var(--body-font);
+    font-size: 1.1rem;
+    list-style: disc;
+    margin-bottom: .35rem;
 }
