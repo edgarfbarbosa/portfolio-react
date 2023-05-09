@@ -8,7 +8,7 @@ const Footer = () => {
         <footer className={styles.footer__container}>
             <div>
                 <img src={LinkedInIcon}></img>
-                <img src={GitHubIcon}></img>
+                {/* <img src={GitHubIcon}></img> */}
             </div>
         </footer>
     )
